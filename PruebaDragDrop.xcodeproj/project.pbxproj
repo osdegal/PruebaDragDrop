@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0350EE2C189FEE660007553C /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0350EE2B189FEE660007553C /* background.png */; };
 		03FD42BE188D8666002C9E0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FD42BD188D8666002C9E0C /* Foundation.framework */; };
 		03FD42C0188D8666002C9E0C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FD42BF188D8666002C9E0C /* CoreGraphics.framework */; };
 		03FD42C2188D8666002C9E0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FD42C1188D8666002C9E0C /* UIKit.framework */; };
@@ -24,6 +25,7 @@
 		03FD42E6188D8666002C9E0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FD42C1188D8666002C9E0C /* UIKit.framework */; };
 		03FD42EE188D8666002C9E0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03FD42EC188D8666002C9E0C /* InfoPlist.strings */; };
 		03FD42F0188D8666002C9E0C /* PruebaDragDropTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FD42EF188D8666002C9E0C /* PruebaDragDropTests.m */; };
+		03FD4300188DA071002C9E0C /* range.png in Resources */ = {isa = PBXBuildFile; fileRef = 03FD42FF188DA071002C9E0C /* range.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0350EE2B189FEE660007553C /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		03FD42BA188D8666002C9E0C /* PruebaDragDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaDragDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03FD42BD188D8666002C9E0C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		03FD42BF188D8666002C9E0C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +63,7 @@
 		03FD42EB188D8666002C9E0C /* PruebaDragDropTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PruebaDragDropTests-Info.plist"; sourceTree = "<group>"; };
 		03FD42ED188D8666002C9E0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03FD42EF188D8666002C9E0C /* PruebaDragDropTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PruebaDragDropTests.m; sourceTree = "<group>"; };
+		03FD42FF188DA071002C9E0C /* range.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = range.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		03FD42B1188D8666002C9E0C = {
 			isa = PBXGroup;
 			children = (
+				03FD42FF188DA071002C9E0C /* range.png */,
+				0350EE2B189FEE660007553C /* background.png */,
 				03FD42C5188D8666002C9E0C /* PruebaDragDrop */,
 				03FD42E9188D8666002C9E0C /* PruebaDragDropTests */,
 				03FD42BC188D8666002C9E0C /* Frameworks */,
@@ -242,7 +248,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				03FD42CA188D8666002C9E0C /* InfoPlist.strings in Resources */,
+				0350EE2C189FEE660007553C /* background.png in Resources */,
 				03FD42DD188D8666002C9E0C /* Images.xcassets in Resources */,
+				03FD4300188DA071002C9E0C /* range.png in Resources */,
 				03FD42DB188D8666002C9E0C /* Spaceship.png in Resources */,
 				03FD42D3188D8666002C9E0C /* Main.storyboard in Resources */,
 			);
@@ -477,6 +485,7 @@
 				03FD42F5188D8667002C9E0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03FD42F6188D8667002C9E0C /* Build configuration list for PBXNativeTarget "PruebaDragDropTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +494,7 @@
 				03FD42F8188D8667002C9E0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
